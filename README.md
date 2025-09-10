@@ -13,8 +13,3 @@ How to run:
   python3 -m venv venv && source venv/bin/activate
   pip install -r requirements.txt  # (numpy scikit-learn matplotlib)
   python beautiful_nn.py --epochs 60 --lr 0.01 --hidden 128 --seed 42
-
-Why this is RA-ready:
- - Demonstrates understanding of forward/backward passes and optimization.
- - Clean engineering: CLI, logging, artifact saving (plots, model, JSON report).
- - Easy to extend: swap in PyTorch/TensorFlow, add experiments & hyperparam tracking.
